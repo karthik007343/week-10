@@ -10,8 +10,8 @@ public  class threaddemo extends Thread{
 }
 //public void notify(){}
 public static void main(String args[]){
-	threaddemo t1=new threaddemo("gayi");
-	threaddemo t2=new threaddemo("yamu");
+	threaddemo t1=new threaddemo("karthik");
+	threaddemo t2=new threaddemo("nithish");
 	t1.run();
 	t2.run();
 	t1.start();
